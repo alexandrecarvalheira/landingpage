@@ -10,6 +10,10 @@
   scroll-behavior: smooth;
 }
 
+body {
+  @apply bg-primary-black scrollbar-thin scrollbar-thumb-emerald-600 scrollbar-track-slate-500;
+}
+
 .gradient-01 {
   background-image: linear-gradient(
     270deg,

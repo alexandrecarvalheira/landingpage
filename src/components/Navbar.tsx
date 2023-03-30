@@ -9,13 +9,13 @@ export default function Navbar() {
     <motion.nav
       variants={navVariants}
       initial="hidden"
-      whileInView="show"
+      animate="show"
       className={`${styles.xPaddings} py-8 relative `}
     >
       <div
         className={`${styles.innerWidth} mx-auto flex items-center justify-between gap-8`}
       >
-        <h2 className=" font-extrabold text-[24px] leading-[30px] text-white">
+        <h2 className=" font-extrabold text-3xl leading-[30px] text-white">
           Scroll Kingdoms
         </h2>
         <ul className="flex gap-8 justify-between text-white items-center">
