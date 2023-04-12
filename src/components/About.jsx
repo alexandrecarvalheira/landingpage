@@ -13,7 +13,7 @@ import {
 export default function About() {
   return (
     <section className="relative z-10 p-10 sm:p-32 xs:p-8 ">
-      <motion.div className="gradient-02 z-0" />
+      <motion.div className=" z-0" />
       <motion.div
         variants={staggerContainer}
         initial="hidden"
@@ -37,10 +37,14 @@ export default function About() {
           whileInView="show"
           className="mt-10 font-normal sm:text-2xl text-xl text-center text-secondary-white"
         >
-          Scroll Kingdoms is a cross chain free to play MMORPG. Users can
-          customize their characters by changing their unique name, equipping
-          items and switching between skins. They can also earn in game
-          resources by questing, as well as boosting their stats via training
+          Scroll Kingdoms is the ultimate Layer2 multichain RPG game that will
+          take you on an epic adventure through a mystical world filled with
+          dangerous creatures, ancient relics, and treacherous dungeons. As you
+          play, you'll level up your hero, gaining new skills, weapons, and
+          spells to help you on your quest. But the journey won't be easy, as
+          you'll face fierce opponents in the Arena, fighting for a place at the
+          top of the leaderboard. So what are you waiting for? Dive into the
+          world of Scroll Kingdoms today and become a legend!
         </motion.p>
       </motion.div>
     </section>

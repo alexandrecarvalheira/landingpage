@@ -1,5 +1,5 @@
 import "../styles/globals.css";
-
+import { Analytics } from "@vercel/analytics/react";
 export const metadata = {
   title: "Scroll Kingdom",
   description: "Scroll Kingdom Co",
@@ -19,7 +19,10 @@ export default function RootLayout({
         />
       </head>
 
-      <body>{children}</body>
+      <body>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }

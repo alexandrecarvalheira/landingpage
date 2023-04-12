@@ -20,12 +20,13 @@ export default function Footer() {
           <h4 className="font-bold md:text-5xl text-xl text-white">
             Play Scroll Kingdoms
           </h4>
-          <button
+          <Link
+            href={"https://app.scrollkingdoms.com/"}
             type="button"
             className="flex items-center h-fit py-4 px-6 bg-gradient-to-tr from-emerald-500 to-purple-500  hover:to-emerald-100 rounded-lg gap-3 font-normal text-white"
           >
             Game Dashboard
-          </button>
+          </Link>
         </div>
         <div className="flex flex-col">
           <div className="mb-12 h-[2px] bg-white opacity-10" />
