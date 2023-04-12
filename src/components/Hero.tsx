@@ -23,7 +23,7 @@ export default function Hero() {
           width={1200}
           height={1200}
         /> */}
-        <div className=" h-full flex flex-col w-1/3  justify-center items-center gap-10 text-center ml-20 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] bg-">
+        <div className=" h-full flex flex-col w-1/2 2xl:w-3/4  justify-center items-center gap-10 text-center ml-20 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] bg-">
           <h2 className="text-4xl font-black text-white ">
             WELCOME TO SCROLL KINGDOMS
           </h2>
