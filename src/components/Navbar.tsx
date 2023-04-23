@@ -19,12 +19,17 @@ export default function Navbar() {
         <h2 className=" font-extrabold text-3xl leading-[30px] text-white">
           Scroll Kingdoms
         </h2>
-        <ul className="flex gap-2 justify-between text-white items-center">
-          <li>
+        <ul className="flex gap-4 justify-between text-white items-center">
+          <li className="hover:font-bold">
             <Link
               href={"https://scroll-kingdoms-1.gitbook.io/game-play/game-play"}
             >
               Docs
+            </Link>
+          </li>
+          <li className="hover:font-bold">
+            <Link target="_blank" href={"https://v1.scrollkingdoms.com/"}>
+              V1 Game
             </Link>
           </li>
           <li>
