@@ -29,7 +29,7 @@ export default function Navbar() {
           </li>
           <li className="hover:font-bold">
             <Link target="_blank" href={"https://v1.scrollkingdoms.com/"}>
-              V1 Game
+              V1
             </Link>
           </li>
           <li>
