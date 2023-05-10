@@ -1,8 +1,8 @@
 import "../styles/globals.css";
 import { Analytics } from "@vercel/analytics/react";
 export const metadata = {
-  title: "Scroll Kingdom",
-  description: "Scroll Kingdom Co",
+  title: "Omni Kingdom",
+  description: "Omni Kingdom Co",
 };
 
 export default function RootLayout({

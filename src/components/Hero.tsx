@@ -25,11 +25,11 @@ export default function Hero() {
         /> */}
         <div className=" h-full flex flex-col w-1/2 2xl:w-3/4  justify-center items-center gap-10 text-center ml-20 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] bg-">
           <h2 className="text-4xl font-black text-white ">
-            WELCOME TO SCROLL KINGDOMS
+            WELCOME TO OMNI KINGDOMS
           </h2>
 
           <Link
-            href={"https://app.scrollkingdoms.com/"}
+            href={"https://app.omnikingdoms.io/"}
             className="font-black  text-white text-xl bg-gradient-to-tr from-emerald-500  hover:to-emerald-100 to-purple-500 w-fit px-6 py-4 borrder-white border-2"
           >
             PLAY NOW

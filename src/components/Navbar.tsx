@@ -17,7 +17,7 @@ export default function Navbar() {
         className={`${styles.innerWidth} mx-auto flex items-center justify-between gap-4`}
       >
         <h2 className=" font-extrabold text-3xl leading-[30px] text-white">
-          Scroll Kingdoms
+          Omni Kingdoms
         </h2>
         <ul className="flex gap-4 justify-between text-white items-center">
           <li className="hover:font-bold">
@@ -28,13 +28,13 @@ export default function Navbar() {
             </Link>
           </li>
           <li className="hover:font-bold">
-            <Link target="_blank" href={"https://v1.scrollkingdoms.com/"}>
-              V1
+            <Link target="_blank" href={"https://v1.omnikingdoms.io/"}>
+              V1gi
             </Link>
           </li>
           <li>
             <Link
-              href={"https://app.scrollkingdoms.com/"}
+              href={"https://app.omnikingdoms.io/"}
               className=" bg-gradient-to-tr from-emerald-500 to-purple-500  hover:to-emerald-100 hover:font-bold px-6 py-2 rounded-md flex items-center gap-2"
             >
               Game Dashboard{" "}

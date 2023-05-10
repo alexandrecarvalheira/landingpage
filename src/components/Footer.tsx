@@ -18,10 +18,10 @@ export default function Footer() {
       <div className="2xl:max-w-[1280px] w-full mx-auto flex flex-col gap-8">
         <div className="flex items-center justify-between flex-wrap gap-5">
           <h4 className="font-bold md:text-5xl text-xl text-white">
-            Play Scroll Kingdoms
+            Play Omni Kingdoms
           </h4>
           <Link
-            href={"https://app.scrollkingdoms.com/"}
+            href={"https://app.omnikingdoms.io/"}
             type="button"
             className="flex items-center h-fit py-4 px-6 bg-gradient-to-tr from-emerald-500 to-purple-500  hover:to-emerald-100 rounded-lg gap-3 font-normal text-white"
           >
@@ -32,10 +32,10 @@ export default function Footer() {
           <div className="mb-12 h-[2px] bg-white opacity-10" />
           <div className="flex items-center justify-between flex-wrap gap-4">
             <h4 className="font-extrabold text-2xl text-white">
-              Scroll Kingdoms
+              Omni Kingdoms
             </h4>
             <p className="font-normal text-sm text-white opacity-50">
-              Scroll Kingdoms Copyright © 2023 - All right reserved
+              Omni Kingdoms Copyright © 2023 - All right reserved
             </p>
             <div className="flex gap-4">
               <Link target="_blank" href={"https://twitter.com/ScrollKingdoms"}>

@@ -25,7 +25,7 @@ export default function About() {
           variants={textContainer}
           className="text-sm text-secondary-white text-center"
         >
-          {Array.from("|About Scroll Kingdom").map((text, index) => (
+          {Array.from("|About Omni Kingdoms").map((text, index) => (
             <motion.span variants={textVariant2} key={index}>
               {text}
             </motion.span>
@@ -37,14 +37,14 @@ export default function About() {
           whileInView="show"
           className="mt-10 font-normal sm:text-2xl text-xl text-center text-secondary-white"
         >
-          Scroll Kingdoms is the ultimate Layer2 multichain RPG game that will
+          Omni Kingdoms is the ultimate Layer2 multichain RPG game that will
           take you on an epic adventure through a mystical world filled with
           dangerous creatures, ancient relics, and treacherous dungeons. As you
           play, you'll level up your hero, gaining new skills, weapons, and
           spells to help you on your quest. But the journey won't be easy, as
           you'll face fierce opponents in the Arena, fighting for a place at the
           top of the leaderboard. So what are you waiting for? Dive into the
-          world of Scroll Kingdoms today and become a legend!
+          world of Omni Kingdoms today and become a legend!
         </motion.p>
       </motion.div>
     </section>
