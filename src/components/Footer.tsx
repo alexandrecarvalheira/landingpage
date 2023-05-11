@@ -38,7 +38,7 @@ export default function Footer() {
               Omni Kingdoms Copyright © 2023 - All right reserved
             </p>
             <div className="flex gap-4">
-              <Link target="_blank" href={"https://twitter.com/ScrollKingdoms"}>
+              <Link target="_blank" href={"https://twitter.com/OmniKingdoms"}>
                 <svg
                   width="24"
                   height="20"
