@@ -1,8 +1,8 @@
 import "../styles/globals.css";
 import { Analytics } from "@vercel/analytics/react";
 export const metadata = {
-  title: "Omni Kingdom",
-  description: "Omni Kingdom Co",
+  title: "Omni Kingdoms",
+  description: "Omni Kingdoms Co",
 };
 
 export default function RootLayout({
